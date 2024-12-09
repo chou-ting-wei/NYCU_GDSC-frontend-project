@@ -28,7 +28,7 @@
 
 1. **分支要求**
 
-   - 每位開發者需建立一個新的分支，分支命名格式為：`feature/<your-page-name>`，例如：`feature/my-page`。
+   - 每位開發者需從 `dev` 建立一個新的分支，分支命名格式為：`feature/<your-page-name>`，例如：`feature/my-page`。
    - 在分支中進行所有的開發工作，並確保最終提交前完成分支合併。
 
 2. **新增頁面路由**

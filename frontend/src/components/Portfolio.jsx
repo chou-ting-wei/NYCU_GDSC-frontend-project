@@ -8,19 +8,19 @@ function Portfolio() {
       title: "張書蓉",
       description: "攝影作品集",
       link: "/iris",
-      image: "https://via.placeholder.com/400x250?text=Iris",
+      image: "project_iris.png",
     },
     {
       title: "葉芊妤",
       description: "Album Gallery",
       link: "/Cy407",
-      image: "https://via.placeholder.com/400x250?text=Cy407",
+      image: "project_Cy407.png",
     },
     {
       title: "馮郇軒",
       description: "To-Do List",
       link: "/FHH",
-      image: "https://via.placeholder.com/400x250?text=FHH",
+      image: "project_FHH.png",
     },
   ];
 

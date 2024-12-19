@@ -1,0 +1,164 @@
+.portfolio-page {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 54px);
+  background: #0f0f0f;
+  /* color: #ffffff; */
+  /* font-family: sans-serif; */
+}
+
+.portfolio-hero {
+  position: relative;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #00ccff, #66ffcc, #ffcc00, #ff0066);
+  background-size: 400% 400%;
+  animation: portfolioGradientBG 30s ease infinite;
+  text-align: center;
+}
+
+@keyframes portfolioGradientBG {
+  0% {
+    background-position: 0% 0%;
+  }
+  25% {
+    background-position: 100% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  75% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+.portfolio-hero-content {
+  z-index: 2;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.portfolio-title {
+  font-size: 3rem;
+  margin: 0;
+  letter-spacing: 2px;
+  animation: fadeInUp 1s ease forwards;
+}
+
+.portfolio-subtitle {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  opacity: 0;
+  animation: fadeInUp 1.5s ease forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.work-gallery {
+  flex: 1;
+  padding: 80px 20px;
+  text-align: center;
+  background: #111;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  position: relative;
+  display: inline-block;
+  color: #ffffff;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #00d9f5;
+  margin: 20px auto 0;
+  border-radius: 2px;
+}
+
+.work-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.work-card {
+  background: #222;
+  border-radius: 10px;
+  padding: 30px;
+  width: 300px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  text-align: left;
+}
+
+.work-card:hover {
+  transform: translateY(-5px);
+}
+
+.work-image-wrapper {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.work-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.work-card-title {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #00f5a0;
+}
+
+.work-card-desc {
+  color: #cbcbc0;
+  margin-bottom: 20px;
+}
+
+.work-link {
+  display: inline-block;
+  color: #00d9f5;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.work-link:hover {
+  color: #00f5a0;
+}
+
+/* footer */
+.portfolio-footer {
+  background: #000;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #aaa;
+}

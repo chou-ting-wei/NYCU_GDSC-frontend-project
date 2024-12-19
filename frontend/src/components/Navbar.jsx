@@ -21,10 +21,8 @@ const Navbar = () => {
       </div>
       <div className={`navbar-collapse ${isOpen ? 'open' : ''}`}>
         <ul className="navbar-nav">
-          <li className="nav-item"><Link to="/" className="nav-link">Home</Link></li>
-          <li className="nav-item"><Link to="/FHH" className="nav-link">To-Do List</Link></li>
-          <li className="nav-item"><Link to="/iris" className="nav-link">攝影作品集</Link></li>
-          <li className="nav-item"><Link to="/Cy407" className="nav-link">Album Gallery</Link></li>
+          <li className="nav-item"><Link to="/" className="nav-link">首頁</Link></li>
+          <li className="nav-item"><Link to="/portfolio" className="nav-link">作品集</Link></li>
         </ul>
       </div>
     </nav>

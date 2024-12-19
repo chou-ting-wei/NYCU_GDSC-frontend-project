@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <Link to="/">GDSC Frontend</Link>
+        <Link to="/">NYCU GDSC Frontend Training Program</Link>
         <button className="navbar-toggler" type="button" onClick={handleToggle}>
           <span className="toggler-icon"></span>
           <span className="toggler-icon"></span>

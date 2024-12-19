@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #343a40;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-brand a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  display: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0.25rem;
+  margin-left: auto;
+}
+
+.toggler-icon {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  display: block;
+  margin: 4px 0;
+  transition: 0.3s;
+}
+
+.navbar-collapse {
+  display: flex;
+  align-items: center;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  margin: 0 0.2rem;
+  border: none;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  /* padding: 0.5rem; */
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ddd;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar-toggler {
+    display: inline-block;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: 3.5rem;
+    left: 0;
+    right: 0;
+    background-color: #343a40;
+    flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+  }
+
+  .navbar-collapse.open {
+    max-height: 300px; /* set a max height when opened */
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5rem 1rem;
+  }
+
+  .nav-item {
+    margin: 0.5rem 0;
+  }
+}

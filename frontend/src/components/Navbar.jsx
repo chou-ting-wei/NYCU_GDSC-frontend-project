@@ -12,6 +12,11 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
+        <img 
+          src="icon.webp" 
+          alt="Logo" 
+          style={{ height: "24px", width: "24px", marginRight: "10px" }} 
+        />
         <Link to="/">NYCU GDSC Frontend Training Program</Link>
         <button className="navbar-toggler" type="button" onClick={handleToggle}>
           <span className="toggler-icon"></span>

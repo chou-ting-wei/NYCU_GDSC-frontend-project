@@ -3,4 +3,10 @@ html, body, #root {
   padding: 0;
   width: 100vw;
   height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  padding-top: 56px;
 }

@@ -1,7 +1,7 @@
 .portfolio-page {
   display: flex;
   flex-direction: column;
-  min-height: calc(100vh - 54px);
+  min-height: calc(100dvh - 54px);
   background: #0f0f0f;
   /* color: #ffffff; */
   /* font-family: sans-serif; */
@@ -9,7 +9,7 @@
 
 .portfolio-hero {
   position: relative;
-  height: 30vh;
+  height: 30dvh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -164,6 +164,9 @@
 }
 
 @media (max-width: 768px) {
+  .portfolio-page {
+    min-height: calc(100dvh - 49px);
+  }
   .portfolio-title {
     font-size: 2.5rem;
   }

@@ -188,6 +188,9 @@
 }
 
 @media (max-width: 768px) {
+  .hero {
+    height: calc(100dvh - 49px);
+  }
   .hero-title {
     font-size: 2.5rem;
   }

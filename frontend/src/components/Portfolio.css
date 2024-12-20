@@ -162,3 +162,29 @@
   font-size: 0.9rem;
   color: #aaa;
 }
+
+@media (max-width: 768px) {
+  .portfolio-title {
+    font-size: 2.5rem;
+  }
+  .portfolio-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  .work-card-title {
+    font-size: 1.3rem;
+  }
+  .work-card-desc {
+    font-size: 0.9rem;
+  }
+  .work-link {
+    font-size: 0.9rem;
+  }
+  .portfolio-footer {
+    font-size: 0.7rem;
+  }
+}

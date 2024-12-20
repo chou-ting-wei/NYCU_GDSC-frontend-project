@@ -108,6 +108,11 @@
   }
 
   .nav-item {
-    margin: 0.5rem 0;
+    margin: 0.4rem 0;
+    font-size:0.8rem;
+  }
+
+  .navbar-brand {
+    font-size: 0.8rem;
   }
 }
